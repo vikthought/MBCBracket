@@ -24,10 +24,6 @@ main suites end-to-end (≈ 1–3 hours total):
 ./run_all.sh              # smoke + synth + neuro + real, writes results/<suite>/
 ```
 
-The bundled `results/` directory already contains the outputs from the run that
-backs the paper, so you can inspect numbers and figures **without** re-running
-anything.
-
 ## Directory layout
 
 ```text
