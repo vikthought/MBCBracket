@@ -78,7 +78,7 @@ MBCBracket/
 ## Reproducing the paper
 
 [REPRODUCE.md](REPRODUCE.md) maps every table and figure in
-[PAPER/main.tex](PAPER/main.tex) to the script that produces the underlying CSV
+the paper to the script that produces the underlying CSV
 and the row of `results/` that holds the canonical output.
 
 ## Setup notes
