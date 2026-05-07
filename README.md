@@ -1,17 +1,14 @@
 # MBCBracket
 
 Reproduction bundle for **MBC** ("Manifold-Based Clustering with Persistence
-Bracket"). Self-contained: code, cached data, pre-computed results, and the
-LaTeX paper. Everything in this directory is what backs the experiments and
-tables in [PAPER/main.tex](PAPER/main.tex).
+Bracket"). Self-contained: code, cached data and pre-computed results.
 
 The algorithm builds a mutual-$k$NN graph at the empirical logarithmic
 connectivity scale, sweeps $k$ across a geometric uncertainty zone derived from
 an offset-to-fill proxy, and returns a **bracket** $[K_{\text{low}}, K_{\text{high}}]$
 together with a single canonical $K$. The bracket is the headline contribution:
 narrow when geometry supports one resolution, wide when several are defensible,
-collapsed to $\{1\}$ when no separated structure is detectable. See
-[PAPER/main.pdf](PAPER/main.pdf) for the full writeup.
+collapsed to $\{1\}$ when no separated structure is detectable.
 
 ## Quick start
 
