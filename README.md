@@ -56,19 +56,7 @@ MBCBracket/
 │   └── generate_paper_figures.py   regenerates figures from result CSVs
 │
 ├── data/                           cached inputs (≈ 10 MB total)
-│   └── README.md                   what's shipped, what's not, how to rebuild
-│
-├── results/                        pre-computed outputs (≈ 65 MB)
-│   ├── synth/{synth_raw.csv, synth_summary.csv, synth_report.md, figs/}
-│   ├── real/                       same layout
-│   ├── neuro/                      same layout
-│   ├── real_embedded/{*.csv, REPORT.md}
-│   ├── perturbations/, sampling/, sensitivity/, ablations/
-│   └── gamma_sensitivity.csv
-│
-└── PAPER/
-    ├── main.tex, main.pdf, references.bib, neurips_2026.sty
-    └── figures/                    pre-rendered figures
+    └── README.md                   what's shipped, what's not, how to rebuild
 ```
 
 ## Reproducing the paper
